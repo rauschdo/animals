@@ -4,7 +4,7 @@
 # animals 🐼 🐶 🐢 🐦 🦦
 
 A learning project originally written at the end of 2021. This project primarily looked at Databinding, Hilt and Room.
-This Project uses the Android View System.
+This Project uses the Android View System. It also provides an [AppWidget](https://developer.android.com/develop/ui/views/appwidgets/overview).
 
 ❗Datasets and texts are only in German language
 
