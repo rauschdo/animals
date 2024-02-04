@@ -68,8 +68,7 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
             dialog.show()
             dialog.findViewById<MaterialButtonToggleGroup>(R.id.groupNightModeDelegate)?.apply {
                 check(
-                    //AppPreferences.getPreferedUiMode(this@BaseActivity)
-                    when (AppCompatDelegate.getDefaultNightMode()) {
+                    when (AppPreference.getPreferedUiMode(this@BaseActivity)) {
                         AppCompatDelegate.MODE_NIGHT_NO -> R.id.nightModeNo
                         AppCompatDelegate.MODE_NIGHT_YES -> R.id.nightModeYes
                         AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM -> R.id.nightModeSystemDefault
@@ -84,11 +83,14 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
                     AppCompatDelegate.setDefaultNightMode(constant)
                     activityRef?.recreate()
                 }
-                addOnButtonCheckedListener { _, checkedId, _ ->
-                    when (checkedId) {
-                        R.id.nightModeNo -> checkedChangedFunc(AppCompatDelegate.MODE_NIGHT_NO)
-                        R.id.nightModeYes -> checkedChangedFunc(AppCompatDelegate.MODE_NIGHT_YES)
-                        R.id.nightModeSystemDefault -> checkedChangedFunc(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
+                addOnButtonCheckedListener { group, checkedId, isChecked ->
+                    // only process triggered event of button that is checked
+                    if (isChecked) {
+                        when (checkedId) {
+                            R.id.nightModeNo -> checkedChangedFunc(AppCompatDelegate.MODE_NIGHT_NO)
+                            R.id.nightModeYes -> checkedChangedFunc(AppCompatDelegate.MODE_NIGHT_YES)
+                            R.id.nightModeSystemDefault -> checkedChangedFunc(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
+                        }
                     }
                 }
             }

@@ -360,9 +360,11 @@ class DetailActivity : BaseActivity() {
                     initialAnimal?.let {
                         currentItem = pagerItems.indexOf(it)
                     }
-                    pageTransformer?.let {
-                        setPageTransformer(it)
-                    } ?: if (reset) setPageTransformer(null)
+                    if (pageTransformer != null) {
+                        setPageTransformer(pageTransformer)
+                    } else if (reset) {
+                        setPageTransformer(null)
+                    } else Unit
                 }
             }
         }

@@ -116,7 +116,7 @@ class CategoryFragment :
                         }
                     }
                     // Handle the menu selection
-                    activity.showSnackbar(menuItem.title)
+                    menuItem.title?.let { activity.showSnackbar(it) }
                     return true
                 }
             }, viewLifecycleOwner, Lifecycle.State.RESUMED)
