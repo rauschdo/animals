@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="de.rauschdo.animals.fragments.SplashFragment"
+        android:label="">
+        <action
+            android:id="@+id/splashFragment_to_categoryFragment"
+            app:destination="@id/categoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="de.rauschdo.animals.fragments.category.CategoryFragment"
+        android:label="Übersicht"
+        tools:layout="@layout/fragment_category">
+        <action
+            android:id="@+id/categoryFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="de.rauschdo.animals.fragments.settings.SettingsFragment"
+        android:label="Einstellungen">
+        <action
+            android:id="@+id/settingsFragment_to_orderFragment"
+            app:destination="@id/orderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="de.rauschdo.animals.fragments.web.WebFragment"
+        android:label=""
+        tools:layout="@layout/fragment_web">
+        <argument
+            android:name="url"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <activity
+        android:id="@+id/detailActivity"
+        android:name="de.rauschdo.animals.activities.detail.DetailActivity"
+        android:label="DetailActivity" />
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="de.rauschdo.animals.fragments.favourite.FavouriteFragment"
+        android:label="Favoriten" />
+    <fragment
+        android:id="@+id/orderFragment"
+        android:name="de.rauschdo.animals.fragments.settings.order.OrderFragment"
+        android:label="Kategorien ordnen" />
+
+</navigation>

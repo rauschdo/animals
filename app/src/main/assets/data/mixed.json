@@ -1,0 +1,168 @@
+{
+  "category": "Andere",
+  "orderIndex": 5,
+  "assetId": "other_icon",
+  "kinds": [
+    {
+      "id": 500,
+      "urls": [
+        "https://a-z-animals.com/animals/otter/"
+      ],
+      "imageUrls": [
+        "https://a-z-animals.com/media/animals/images/original/otter4-400x300.jpg",
+        "https://cdn.unitycms.io/image/3ZJl39M0q5lBOQYvyUmaY5.gif",
+        "https://upload.wikimedia.org/wikipedia/commons/7/79/Sea_otters_holding_hands.jpg"
+      ],
+      "name": "Otter",
+      "location": "Weltweit (ausgeschlossen Antarktis)",
+      "coordinates": [],
+      "habitat": "Ufer, Seen und Bäche",
+      "features": [
+        "Verlängerung des Handgelenksknochens fungiert als Daumen"
+      ],
+      "lifespan": "15 - 25 Jahre",
+      "size": "0.6 - 1.8m",
+      "weight": "1 - 45kg",
+      "prey": {
+        "primary": [
+          "Fisch",
+          "Krabben",
+          "Frösche"
+        ]
+      },
+      "lifestyle": "Einsam",
+      "predators": [
+        "Vögel",
+        "Füchse",
+        "Wölfe"
+      ],
+      "trivia": [
+        "Verwenden oft Steine um Essen zu öffnen.",
+        "Während essen oder schlafen halten Sie oft Hände",
+        "Ihr dickes Fell hilft ihnen auf dem Wasser zu treiben."
+      ],
+      "pet": false
+    },
+    {
+      "id": 501,
+      "urls": [
+        "https://a-z-animals.com/animals/capybara/"
+      ],
+      "imageUrls": [
+        "https://a-z-animals.com/media/animals/images/original/capybara.jpg",
+        "https://i.imgur.com/S4umAzf.jpg"
+      ],
+      "name": "Capybara (Wasserschwein)",
+      "location": "Süd Amerika",
+      "coordinates": [],
+      "habitat": "Dichte Vegetation, Nahe Süßwasser",
+      "features": [],
+      "lifespan": "8 - 10 Jahre",
+      "size": "1 - 1.3m",
+      "weight": "30 - 70kg",
+      "prey": {
+        "primary": [
+          "Grässer",
+          "Wasserpflanzen",
+          "Borke (Rinde)"
+        ]
+      },
+      "lifestyle": "Herde",
+      "predators": [
+        "Jaguar",
+        "Kaiman",
+        "Harpyie"
+      ],
+      "biggest_thread": "Jagd & Verlust von Lebensraum",
+      "trivia": [
+        "Exzellente Taucher und Schwimmer",
+        "Größtes Tier unter den Nagetieren",
+        "Enge Verwandtschaft mit Meerschweinchen",
+        "Essen ihr eigenes Exkrement"
+      ],
+      "pet": false
+    },
+    {
+      "id": 502,
+      "urls": [
+        "https://a-z-animals.com/animals/capybara/",
+        "https://www.tierchenwelt.de/beuteltiere/618-opossum-beutelratte.html",
+        "https://www.mentalfloss.com/article/544902/facts-about-opossums"
+      ],
+      "imageUrls": [
+        "https://a-z-animals.com/media/animals/images/original/opossum3-400x300.jpg",
+        "https://s1.best-wallpaper.net/wallpaper/m/1401/Possums-mother-and-children_m.jpg",
+        "http://media.al.com/outdoors-alabama/photo/possum-0411jpg-d8f3393cd74cca37_large.jpg"
+      ],
+      "name": "Opossum",
+      "location": "Nord Amerika",
+      "coordinates": [],
+      "habitat": "Wälder und Buschland",
+      "features": [],
+      "lifespan": "2 - 7 Jahre",
+      "size": "bis 50cm",
+      "weight": "bis 6kg",
+      "prey": {
+        "primary": [
+          "Früchte",
+          "Insekten",
+          "Frösche"
+        ]
+      },
+      "lifestyle": "Einsam, Nachtaktiv",
+      "predators": [
+        "Füchse",
+        "Katzen",
+        "Raubvögel"
+      ],
+      "biggest_thread": "Jagd & Verlust von Lebensraum",
+      "trivia": [
+        "Ein gängiger Verteidigungsmechanismus ist das totstellen. Dieser kann nicht selbst kontrolliert werden",
+        "Sind sehr agil, dabei dient ihr Schwanz als fünftes Glied"
+      ],
+      "pet": false
+    },
+    {
+      "id": 503,
+      "urls": [
+        "https://a-z-animals.com/animals/arctic-fox/"
+      ],
+      "imageUrls": [
+        "https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,f_jpg,h_400,q_65,w_587/https://media.newmindmedia.com/TellUs/image/%3Ffile%3D_F6I6852_253514105.jpg%26dh%3D533%26dw%3D800%26t%3D4",
+        "https://a-z-animals.com/media/animals/images/original/arctic_fox_13-400x300.jpg",
+        "https://external-preview.redd.it/JLclsl2FMCNjw9d4fY8fJhvyKtL1tUPtuxlzG88H030.jpg?auto=webp&s=9745ad4b72b89cf8de880c587e5051f0d8dcf715",
+        "https://a-z-animals.com/media/animals/images/original/arctic_fox9-400x300.jpg"
+      ],
+      "name": "Polarfuchs",
+      "location": "Europa, Eurasien, Nordamerika",
+      "coordinates": [],
+      "habitat": "Polarwälder",
+      "features": [],
+      "lifespan": "7 - 10 Jahre",
+      "size": "70 - 110cm",
+      "weight": "1.4 - 9.4kg",
+      "prey": {
+        "primary": [
+          "Lemminge",
+          "Wühlmaus",
+          "Kleine Nagetiere",
+          "Beeren",
+          "Insekten"
+        ]
+      },
+      "lifestyle": "Einsam",
+      "predators": [
+        "Schnee-Eule",
+        "Wölfe",
+        "Eisbär"
+      ],
+      "trivia": [
+        "Die Farbe des Fells verändert sich nach Jahreszeit",
+        "Können bis zu 155km am Tag zurücklegen",
+        "Graben ausgeklügelte Höhlensysteme als Behausung",
+        "Können bis zu 50kmh schnell laufen"
+      ],
+      "pet": false
+    }
+  ]
+}

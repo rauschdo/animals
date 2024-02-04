@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Animals" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_main</item>
+        <item name="colorPrimaryVariant">@color/green_main_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/brown_main</item>
+        <item name="colorSecondaryVariant">@color/brown_main_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Time Picker -->
+        <!-- selected background -->
+        <item name="colorPrimaryContainer">@color/greyParicle</item>
+        <!-- clock and unselected background -->
+        <!--        <item name="colorSurfaceVariant"></item>-->
+        <!-- display text color-->
+        <!--        <item name="colorOnSurface">@color/brown_main_light</item>-->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <item name="defaultIconTint">@color/green_main_light</item>
+    </style>
+
+    <style name="BottomNavigationActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/black_text</item>
+    </style>
+
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="android:backgroundTint">@color/black_text</item>
+    </style>
+
+    <style name="CardStyle.Flat" parent="CardStyle">
+        <item name="cardCornerRadius">0dp</item>
+    </style>
+
+    <style name="TextStyle.Inverse" parent="TextStyle">
+        <item name="android:textColor">@color/white_text</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="TextStyle.Subline.Inverse" parent="TextStyle.Subline">
+        <item name="android:textColor">@color/white_text</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="TextStyle.Secondary" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">@color/white_text</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize_12">12sp</dimen>
+    <dimen name="textsize_14">14sp</dimen>
+    <dimen name="textsize_16">16sp</dimen>
+    <dimen name="textsize_18">18sp</dimen>
+    <dimen name="textsize_20">20sp</dimen>
+    <dimen name="textsize_24">24sp</dimen>
+
+    <dimen name="view_margin_4">4dp</dimen>
+    <dimen name="view_margin_8">8dp</dimen>
+    <dimen name="view_margin_12">12dp</dimen>
+    <dimen name="view_margin_16">16dp</dimen>
+    <dimen name="view_margin_24">24dp</dimen>
+    <dimen name="view_margin_32">32dp</dimen>
+    <dimen name="view_margin_40">40dp</dimen>
+    <dimen name="view_margin_48">48dp</dimen>
+    <dimen name="view_margin_64">64dp</dimen>
+
+    <dimen name="view_size_24">24dp</dimen>
+    <dimen name="view_size_36">36dp</dimen>
+    <dimen name="view_size_48">48dp</dimen>
+    <dimen name="view_size_56">56dp</dimen>
+    <dimen name="view_size_64">64dp</dimen>
+    <dimen name="card_image_height">216dp</dimen>
+
+    <dimen name="bottom_navbar_elevation">0.1dp</dimen>
+    <dimen name="cradle_margin">8dp</dimen>
+    <dimen name="cradle_corners">12dp</dimen>
+
+    <dimen name="dev_logo_size">104dp</dimen>
+    <dimen name="dev_card_height">160dp</dimen>
+    <dimen name="dev_card_top_margin">64dp</dimen>
+
+    <!-- Anim Durations -->
+    <integer name="anim_duration_medium">1000</integer>
+    <integer name="anim_duration_long">1400</integer>
+    <integer name="anim_duration_short">500</integer>
+
+    <item name="splash_anim_speed" format="float" type="dimen">1.75</item>
+
+    <dimen name="card_default_radius">10dp</dimen>
+    <dimen name="card_default_elevation">8dp</dimen>
+
+    <!-- Widget -->
+    <dimen name="widget_min_width">180dp</dimen>
+    <dimen name="widget_min_height">80dp</dimen>
+
+    <!-- https://developer.android.com/guide/topics/appwidgets/layouts#specify-widget-size-constraints -->
+    <dimen name="widget_max_width">570dp</dimen> <!-- 4 width Colums max in landscape -->
+    <dimen name="widget_max_height">240dp
+    </dimen> <!-- 2 height Colums max (in portrait (higher Column sizes))-->
+
+    <integer name="widget_targetCellWidth">3</integer>
+    <integer name="widget_targetCellHeight">1</integer>
+    <dimen name="widget_top_bar_height">38dp</dimen>
+    <dimen name="widget_image_container_size">100dp</dimen>
+
+    <!-- Shimmer -->
+    <dimen name="shimmer_intensity">0.01</dimen>
+    <dimen name="shimmer_tilt">0</dimen>
+    <dimen name="shimmer_highlight_alpha">0.1</dimen>
+    <dimen name="shimmer_base_alpha">1</dimen>
+    <dimen name="shimmer_dropoff">50</dimen>
+
+    <!-- ids -->
+    <item name="on_page_change_listener" type="id" />
+</resources>

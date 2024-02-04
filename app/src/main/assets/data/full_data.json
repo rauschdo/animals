@@ -1,0 +1,746 @@
+[
+  {
+    "category": "Pandas",
+    "orderIndex": 1,
+    "assetId": "panda_icon",
+    "kinds": [
+      {
+        "id": 100,
+        "urls": [
+          "https://a-z-animals.com/animals/giant-panda-bear/"
+        ],
+        "imageUrls": [
+          "https://media.istockphoto.com/photos/giant-panda-bear-picture-id475636556?k=20&m=475636556&s=170667a&w=0&h=D1PBdu6YZS-yc0BhT4RyWhqhKdj4-FzIaRZTh9wGGHE=",
+          "https://media.istockphoto.com/photos/giant-panda-baby-cub-in-chengdu-area-china-picture-id539113690?b=1&k=20&m=539113690&s=170667a&w=0&h=rfTZl3cGwuqENP0-LKhY9Zok05jtN2-gZSDy6xIfcB0=",
+          "https://media.gettyimages.com/photos/giant-panda-cub-born-in-2020-is-seen-at-china-conservation-and-for-picture-id1301133110?s=612x612",
+          "https://a.rgbimg.com/users/t/ta/tacluda/600/nr2SFC0.jpg"
+        ],
+        "name": "Großer Pandabär",
+        "location": "Asien - Dabie Mountains (zentral China)",
+        "coordinates": [
+          [
+            [
+              36.39091621787114,
+              93.0438854817055
+            ],
+            [
+              32.9217027560293,
+              116.8622448567055
+            ],
+            [
+              24.892074580411524,
+              109.4794323567055
+            ],
+            [
+              29.272654678673828,
+              93.4393932942055
+            ]
+          ]
+        ],
+        "estimate_count": 2000,
+        "habitat": "Feuchte Hochgebirgs-Bambuswälder",
+        "features": [
+          "Verlängerung des Handgelenksknochens fungiert als Daumen"
+        ],
+        "lifespan": "20 - 35 Jahre",
+        "size": "1,5 - 1,8m",
+        "weight": "110 - 250kg",
+        "prey": {
+          "primary": [
+            "Bambus",
+            "Früchte"
+          ],
+          "secondary": [
+            "Nagetiere"
+          ]
+        },
+        "lifestyle": "Tag- & Nachtaktiv",
+        "predators": [],
+        "biggest_thread": "Verlust von Lebensraum",
+        "trivia": [
+          "Ihre Diät besteht zu 99% aus Bambus!",
+          "Panda-Mütter halten während ihres ersten Monats fast 100% der Zeit Kontakt mit ihrem Jungen - wobei das Junge auf ihrer Vorderseite ruht und von ihrer Pfote, ihrem Arm oder ihrem Kopf bedeckt bleibt.",
+          "Können 14 Stunden mit dem Essen verbringen!"
+        ],
+        "pet": false
+      },
+      {
+        "id": 101,
+        "urls": [
+          "https://a-z-animals.com/animals/red-panda/"
+        ],
+        "imageUrls": [
+          "https://media.istockphoto.com/photos/red-panda-in-tree-picture-id466087002?k=20&m=466087002&s=612x612&w=0&h=H8X9g6WpAb05FixKEB9MQ0oXyNUav3WM5GeU9dkrF60=",
+          "https://a-z-animals.com/media/animals/images/original/red_panda10-400x300.jpg",
+          "https://a-z-animals.com/media/animals/images/original/red_panda4-400x300.jpg"
+        ],
+        "name": "Roter Panda",
+        "location": "Asien - Himalaya Gebirge",
+        "coordinates": [
+          [
+            [
+              37.237916092893016,
+              71.51256865872242
+            ],
+            [
+              32.48073484317796,
+              74.94030303372242
+            ],
+            [
+              28.15790589977504,
+              82.80651397122242
+            ],
+            [
+              26.910975443423464,
+              92.21081084622242
+            ],
+            [
+              28.814524110985722,
+              97.66002959622242
+            ],
+            [
+              35.71857577567411,
+              84.87194365872242
+            ],
+            [
+              37.72612861757805,
+              76.12682647122242
+            ]
+          ]
+        ],
+        "estimate_count": 3000,
+        "habitat": "Hochgebirgswald",
+        "features": [
+          "Rostfarbenes dickes Fell",
+          "Gestreiftes Gesicht"
+        ],
+        "lifespan": "8 - 12 Jahre",
+        "size": "60 - 120cm",
+        "weight": "3 - 6.2kg",
+        "prey": {
+          "primary": [
+            "Bambus",
+            "Beeren"
+          ],
+          "secondary": [
+            "Früchte",
+            "Insekten",
+            "Vogeleier",
+            "Kleine Echsen"
+          ]
+        },
+        "lifestyle": "Nachtaktiv",
+        "predators": [
+          "Schneeleopard",
+          "Marder",
+          "Mensch"
+        ],
+        "biggest_thread": "Verlust von Lebensraum",
+        "trivia": [
+          "Von ihnen gibt es weniger als 3000 in der Wildnis",
+          "Ein Tier des digitalen Zeitalters. Auch bekannt als 'Firefox' haben Sie einen Browser nach sich benannt.\nEbenfalls geben sie geräusche von sich die als 'twittering' (gezwitscher) bezeichnet wird"
+        ],
+        "pet": false
+      }
+    ]
+  },
+  {
+    "category": "Hunde",
+    "orderIndex": 2,
+    "assetId": "dog_icon",
+    "kinds": [
+      {
+        "id": 200,
+        "urls": [
+          "https://a-z-animals.com/animals/labrador-retriever/"
+        ],
+        "imageUrls": [
+          "https://a-z-animals.com/media/Labrador-Retriever-Canis-familiaris-colorings-400x300.jpg",
+          "https://a-z-animals.com/media/Labrador-Retriever-Canis-familiaris-puppy-with-mom-400x300.jpg",
+          "https://a-z-animals.com/media/Labrador-Retriever-Canis-familiaris-fetching-400x300.jpg"
+        ],
+        "name": "Labrador",
+        "location": "Vereinigtes Königreich",
+        "coordinates": [],
+        "lifespan": "10 - 15 Jahre",
+        "size": "55 - 65cm",
+        "weight": "25 - 35kg",
+        "trivia": [
+          "Energiegeladen und Wasser liebend!",
+          "Anzahl der Registierungen Zufolge die populärste Hunderasse (Amerika & Europa + Vereintes Königreich)",
+          "Ihr starker Schwanz ermöglicht volle Kontrolle beim Schwimmen und ihr dichtes Fell\ndas Sie auch in kalten Gewässern ohne Probleme zurechtkommen.",
+          "Gehören zu den vielseitigsten Hunderassen wenn es darum geht Aufgaben auszuführen."
+        ],
+        "temper": [
+          "Freundlich",
+          "Aktiv",
+          "Verspielt"
+        ],
+        "pet": true
+      },
+      {
+        "id": 201,
+        "urls": [
+          "https://a-z-animals.com/animals/bernese-mountain-dog/",
+          "https://a-z-animals.com/animals/saint-bernard/"
+        ],
+        "imageUrls": [
+          "https://thehappypuppysite.com/wp-content/uploads/2018/12/Bernese-Mountain-Dog-Vs-St-Bernard-long.jpg",
+          "https://thehappypuppysite.com/wp-content/uploads/2018/10/bernese-mountain-dog-names-long.jpg",
+          "https://a-z-animals.com/media/2018/09/Saint-Bernard-puppy-400x300.jpg",
+          "https://assets.orvis.com/is/image/orvisprd/AdobeStock_101064662?wid=1023&src=is($object$:7-3)"
+        ],
+        "name": "Berner Sennenhund & Bernhardiner",
+        "location": "Europa (Schweiz)",
+        "coordinates": [],
+        "lifespan": "[Berner Sennenhund] 6 - 8 Jahre\n[Bernhardiner] 10 Jahre",
+        "size": "[Berner Sennenhund] 60 - 70cm\n[Bernhardiner] 65 - 90cm",
+        "weight": "[Berner Sennenhund] 35 - 50kg\n[Bernhardiner] 55 - 85kg",
+        "trivia": [
+          "Sehr loyal und Liebevoll.",
+          "[Berner Sennenhund] Wird häufig als eine 'vielseitige' Hunderasse bezeichnet da Sie auch Erfolge im Hundesport verzeichnet.",
+          "[Bernhardiner] Besitzen eine langsame Entwicklung in die Reife und behalten ihre Welpenmentalitäten wesentlich länger als andere Hunderassen.",
+          "Die Darstellung dieser Hunderassen mit dem Fass um den Nacken gebunden entsprang\ndem Kunstwerk 'Alpine Mastiffs Reanimating a Distressed Traveler' von Sir Edwin Landseer\nwelches er mit 17 Jahren schuf.\nDer Reisende wurde in einem Blizzard erfasst, die Flüssigkeit im Fass ist eine Alkoholische (Kognak).\nDurch den Blutstrom und Erweiterung der Blutgefäße durch Alkohol resultierend in einem drastischen Anstieg der Körpertemperatur.\nDiese Darstellung von Rettungshunden mit Fass in alpinen Gebirgen hat sich eingebettet in das öffentliche Bild."
+        ],
+        "temper": [
+          "Intelligent",
+          "Sehr Freundlich",
+          "Aufmerksam"
+        ],
+        "pet": true
+      },
+      {
+        "id": 202,
+        "urls": [
+          "https://a-z-animals.com/animals/australian-shepherd/"
+        ],
+        "imageUrls": [
+          "https://www.akc.org/wp-content/uploads/2017/01/australian-shepherd-puppy.jpeg",
+          "https://i.imgur.com/53jopLR.jpg"
+        ],
+        "name": "Australian Shepherd",
+        "location": "Nord Amerika & Ozeanien",
+        "coordinates": [],
+        "lifespan": "15 Jahre",
+        "size": "45 - 60cm",
+        "weight": "18 - 30kg",
+        "trivia": [
+          "Süß, treu und anhänglich!",
+          "Stammen nicht aus Australien!",
+          "Besitzen häufig verschiedene Augenfarben.",
+          "In den 1970er unterhielt der Frisbee Champion &lt;a href=\"https://www.australian-shepherd-forum.de/hyper-hank-frisbee-fangender-aussie/\">Hyper Hank&lt;/a>"
+        ],
+        "temper": [
+          "Intelligent",
+          "Anhänglich",
+          "Freundlich",
+          "Aktiv",
+          "Beschützend"
+        ],
+        "pet": true
+      },
+      {
+        "id": 203,
+        "urls": [
+          "https://a-z-animals.com/animals/pembroke-welsh-corgi/"
+        ],
+        "imageUrls": [
+          "https://a-z-animals.com/media/2021/08/Pembroke-Welsh-Corgi-Leaping-in-the-Field-400x300.jpg",
+          "https://a-z-animals.com/media/2021/08/Older-and-Younger-Pembroke-Welsh-Corgi-Take-a-Walk.jpg",
+          "https://a-z-animals.com/media/2021/08/Corgi-Close-Up-400x300.jpg",
+          "https://a-z-animals.com/media/2021/08/Pembroke-Welsh-Corgi-with-its-Tongue-Out-400x300.jpg"
+        ],
+        "name": "Welsh Corgi Pembroke",
+        "location": "Vereinigtes Königreich",
+        "coordinates": [],
+        "features": [
+          "Tief angesetzter Körper",
+          "Große aufrechte Ohren",
+          "Stummelschwanz"
+        ],
+        "lifespan": "12 - 15 Jahre",
+        "size": "25 - 30cm",
+        "weight": "10 - 14kg",
+        "trivia": [
+          "Die Lieblings Hunderasse von Queen Elizabeth II",
+          "Gehören zur Gruppe der Herdenhunde, darunter bekannt als 'Heelers'.\nDas bedeutet sie knabbern an den Fersen größerer Tiere damit sie sich bewegen,",
+          "Das Wort Corgi stammt aus der Welschen Sprache. Cor für Zwerg und gi für Hund.",
+          "Neben dieser Rasse gibt es den Welsh Corgi ohne Zusatz der als separate Rasse anerkannt wird."
+        ],
+        "temper": [
+          "Liebevoll",
+          "Lebenslustig",
+          "Intelligent"
+        ],
+        "pet": true
+      }
+    ]
+  },
+  {
+    "category": "Schildkröten",
+    "orderIndex": 3,
+    "assetId": "turtle_icon",
+    "kinds": [
+      {
+        "id": 300,
+        "urls": [
+          "https://a-z-animals.com/animals/sea-turtle/"
+        ],
+        "imageUrls": [
+          "https://media.istockphoto.com/photos/turtle-closeup-with-school-of-fish-picture-id1170804921?k=20&m=1170804921&s=612x612&w=0&h=W4zAOSr9DzJvJO-uib7GiwZ9kaleupO_LspfXvOT0HE="
+        ],
+        "name": "Meeresschildkröte",
+        "location": "Ozeane",
+        "estimate_count": -1,
+        "habitat": "Tropische Küstengewässer und Strände",
+        "features": [
+          "Große stromlinienförmige Schale",
+          "Nicht einziehbarer Kopf und Gliedmaßen"
+        ],
+        "coordinates": [],
+        "lifespan": "60 - 80 Jahre",
+        "size": "Speziesabhängig:\nLederschildkröte 1,8 - 2,5m\nAndere Ø 60 - 120cm",
+        "weight": "158 - 700kg (Ausgewachsen)",
+        "prey": {
+          "primary": [
+            "Fisch",
+            "Krabben"
+          ],
+          "secondary": [
+            "Seetang",
+            "Quallen"
+          ]
+        },
+        "lifestyle": "Tag- & Nachtaktiv",
+        "predators": [
+          "Feuerameisen, Geisterkrabben",
+          "als auch Hunde, Katzen, Waschbären, Eber"
+        ],
+        "biggest_thread": "Öllachen, Meeresverschmutzung",
+        "trivia": [
+          "Es existieren sieben verschiedene Spezies von Meeresschildkröten.",
+          "Kehren immer zum selben Strand zurück um Eier zu legen."
+        ],
+        "pet": false
+      }
+    ]
+  },
+  {
+    "category": "Vögel",
+    "orderIndex": 4,
+    "assetId": "bird_icon",
+    "kinds": [
+      {
+        "id": 400,
+        "urls": [
+          "https://a-z-animals.com/animals/emperor-penguin/"
+        ],
+        "imageUrls": [
+          "https://media.istockphoto.com/photos/emperor-penguin-picture-id149468325",
+          "https://media.istockphoto.com/photos/portrait-of-emperor-penguins-in-their-natural-habitat-picture-id147675078",
+          "https://media.istockphoto.com/photos/emperor-penguins-with-chick-picture-id146729730"
+        ],
+        "name": "Kaiserpinguin",
+        "location": "Antarktis",
+        "coordinates": [],
+        "estimate_count": 400000,
+        "habitat": "Ozean, Eisschollen",
+        "features": [
+          "Federn an Nacken und Ohren"
+        ],
+        "lifespan": "15 - 50 Jahre",
+        "size": "1 - 1,2m",
+        "weight": "22 - 45kg",
+        "prey": {
+          "primary": [
+            "Fisch",
+            "Krill",
+            "Tintenfisch"
+          ],
+          "secondary": []
+        },
+        "lifestyle": "Tagaktiv",
+        "predators": [
+          "Riesensturmvogel",
+          "Seeleopard",
+          "Schwertwal"
+        ],
+        "biggest_thread": "Klimawandel",
+        "trivia": [
+          "Die größte Pinguin Spezies!",
+          "Leben in Kolonien die tausende Individuen stark sein können.",
+          "Schwimmen so schnell wie Delfine."
+        ],
+        "pet": false
+      },
+      {
+        "id": 401,
+        "urls": [
+          "https://a-z-animals.com/animals/sparrow/"
+        ],
+        "imageUrls": [
+          "https://a-z-animals.com/media/2018/09/Sparrow-on-branch-400x300.jpg",
+          "https://a-z-animals.com/media/2018/09/Sparrow-baby-400x300.jpg",
+          "https://a-z-animals.com/media/2018/09/Sparrow-on-cactus-400x300.jpg",
+          "https://a-z-animals.com/media/2018/09/Sparrow-russet-400x300.jpg"
+        ],
+        "name": "Spatz",
+        "location": "Weltweit (ausgeschlossen Antarktis)",
+        "coordinates": [],
+        "estimate_count": 1600000000,
+        "habitat": "Ländliche Gegenden, Waldland",
+        "features": [
+          "Kleine Körper und gerundeter Kopf"
+        ],
+        "lifespan": "4 - 7 Jahre",
+        "size": "11 - 18cm",
+        "weight": "13 - 42g",
+        "prey": {
+          "primary": [
+            "Insekten",
+            "Samen",
+            "Beeren"
+          ],
+          "secondary": []
+        },
+        "lifestyle": "In Herden",
+        "predators": [
+          "Katzen",
+          "Schlangen",
+          "Falken"
+        ],
+        "trivia": [
+          "Von ihnen gibt es mehr als 140 verschiedene Spezies.",
+          "Sie können zwischen 38,5 und 50km die Stunde zurücklegen.",
+          "Sie sind genannt in vielen antiken Schriften, inklusive der Bibel."
+        ],
+        "pet": false
+      },
+      {
+        "id": 402,
+        "urls": [
+          "https://a-z-animals.com/animals/toucan/"
+        ],
+        "imageUrls": [
+          "https://a-z-animals.com/media/Toucan-Plate-billed-400x300.jpg",
+          "https://a-z-animals.com/media/Toucan-Brazilian-400x300.jpg",
+          "https://a-z-animals.com/media/Toucan-chicks-400x300.jpg",
+          "https://a-z-animals.com/media/Toucan-sideview-400x300.jpg"
+        ],
+        "name": "Toucan",
+        "location": "Zentral/Südamerika",
+        "coordinates": [],
+        "estimate_count": 10000,
+        "habitat": "Regen, Tropenwälder",
+        "features": [
+          "Kleine Körper und enormer, farbiger Schnabel"
+        ],
+        "lifespan": "12 - 20 Jahre",
+        "size": "29 - 63cm",
+        "weight": "130 - 680g",
+        "prey": {
+          "primary": [
+            "Früchte",
+            "Eier",
+            "Insekten"
+          ],
+          "secondary": []
+        },
+        "lifestyle": "Einsam",
+        "predators": [
+          "Menschen",
+          "Wiesel",
+          "Große Vögel"
+        ],
+        "trivia": [
+          "Ihr Schabel kann bis zu einem drittel Ihrer größe Lang sein",
+          "Toucane sind schlechte Flieger",
+          "Ihr Schnabel ist hohl"
+        ],
+        "pet": false
+      },
+      {
+        "id": 403,
+        "urls": [
+          "https://a-z-animals.com/animals/hummingbird/"
+        ],
+        "imageUrls": [
+          "https://a-z-animals.com/media/hummingbird-3-400x300.jpg",
+          "https://a-z-animals.com/media/hummingbird-1-400x300.jpg",
+          "https://a-z-animals.com/media/hummingbird-5-400x300.jpg"
+        ],
+        "name": "Kolibri",
+        "location": "Amerika (Süd/Nord)",
+        "coordinates": [],
+        "habitat": "Regenwälder, Tropische Gebiete",
+        "features": [
+          "Langer, dünner Schabel",
+          "Fähigkeit in Stelle zu schweben"
+        ],
+        "lifespan": "3 - 5 Jahre",
+        "size": "5 - 20cm",
+        "weight": "2 - 20g",
+        "prey": {
+          "primary": [
+            "Nektar",
+            "Baumsaft",
+            "Insekten",
+            "Spinnen"
+          ],
+          "secondary": []
+        },
+        "lifestyle": "Einsam",
+        "predators": [
+          "Falken",
+          "Schlangen",
+          "Echsen"
+        ],
+        "trivia": [
+          "Können ihre Flügel bis zu 80mal die Sekunde schlagen!",
+          "Kolibrieier sind nur 1cm groß.",
+          "Maximale Fluggeschwindigkeit liegt bei etwa 48km/h."
+        ],
+        "pet": false
+      },
+      {
+        "id": 404,
+        "urls": [
+          "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/birds/blue-tit/",
+          "https://twootz.com/bird/Blue-Tit"
+        ],
+        "imageUrls": [
+          "https://upload.wikimedia.org/wikipedia/commons/2/29/ParusCaeruleus.jpg",
+          "https://wtlivewebtierstorage.blob.core.windows.net/cache/1/f/6/6/4/5/1f6645282f03e6dc8a4c5460ea34e9fca13f3659.jpg",
+          "https://twootz.com/assets/images/bird/birdinhand3693.jpg"
+        ],
+        "name": "Blaumeise",
+        "location": "Europa (primär Vereintes Königreich)",
+        "coordinates": [],
+        "habitat": "Grünland, Wälder",
+        "features": [
+          "Blauer Kopf, weiße Wangen, schwarze Augenstreifen"
+        ],
+        "lifespan": "3 Jahre",
+        "size": "10.5 - 12cm",
+        "weight": "8 - 10g",
+        "prey": {
+          "primary": [
+            "Insekten",
+            "Raupen",
+            "Samen",
+            "Nüsse"
+          ],
+          "secondary": []
+        },
+        "lifestyle": "In Herden",
+        "predators": [
+          "Sperber",
+          "Wiesel",
+          "Eulen"
+        ],
+        "trivia": [
+          "Klein, flauschig und hyperaktiv!",
+          "Ein sesshafter Vogel. Studien besagen das nur etwa 1.2 % im Winter mehr als 20km migrieren.",
+          "Maximale Fluggeschwindigkeit liegt zwischen 25 und 34km/h."
+        ],
+        "pet": false
+      },
+      {
+        "id": 405,
+        "urls": [
+          "https://kidadl.com/animal-facts/pale-billed-flowerpecker-facts"
+        ],
+        "imageUrls": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Pale-billed_Flowerpecker_%28Dicaeum_erythrorhynchos%29_preening_in_Hyderabad%2C_AP_W_IMG_7326.jpg/440px-Pale-billed_Flowerpecker_%28Dicaeum_erythrorhynchos%29_preening_in_Hyderabad%2C_AP_W_IMG_7326.jpg",
+          "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/126373381/480"
+        ],
+        "name": "Lachsschnabel-Mistelfresser",
+        "location": "Asien",
+        "coordinates": [],
+        "habitat": "Tropische Wälder, Laubwald, städtischer Raum",
+        "lifespan": "",
+        "size": "8cm",
+        "weight": "4 - 8g",
+        "prey": {
+          "primary": [
+            "Insekten",
+            "Spinnen"
+          ],
+          "secondary": []
+        },
+        "trivia": [
+          "Der kleinste Vogel Asiens!"
+        ],
+        "pet": false
+      }
+    ]
+  },
+  {
+    "category": "Andere",
+    "orderIndex": 5,
+    "assetId": "other_icon",
+    "kinds": [
+      {
+        "id": 500,
+        "urls": [
+          "https://a-z-animals.com/animals/otter/"
+        ],
+        "imageUrls": [
+          "https://a-z-animals.com/media/animals/images/original/otter4-400x300.jpg",
+          "https://cdn.unitycms.io/image/3ZJl39M0q5lBOQYvyUmaY5.gif",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Sea_otters_holding_hands.jpg"
+        ],
+        "name": "Otter",
+        "location": "Weltweit (ausgeschlossen Antarktis)",
+        "coordinates": [],
+        "habitat": "Ufer, Seen und Bäche",
+        "features": [
+          "Verlängerung des Handgelenksknochens fungiert als Daumen"
+        ],
+        "lifespan": "15 - 25 Jahre",
+        "size": "0.6 - 1.8m",
+        "weight": "1 - 45kg",
+        "prey": {
+          "primary": [
+            "Fisch",
+            "Krabben",
+            "Frösche"
+          ]
+        },
+        "lifestyle": "Einsam",
+        "predators": [
+          "Vögel",
+          "Füchse",
+          "Wölfe"
+        ],
+        "trivia": [
+          "Verwenden oft Steine um Essen zu öffnen.",
+          "Während essen oder schlafen halten Sie oft Hände",
+          "Ihr dickes Fell hilft ihnen auf dem Wasser zu treiben."
+        ],
+        "pet": false
+      },
+      {
+        "id": 501,
+        "urls": [
+          "https://a-z-animals.com/animals/capybara/"
+        ],
+        "imageUrls": [
+          "https://a-z-animals.com/media/animals/images/original/capybara.jpg",
+          "https://i.imgur.com/S4umAzf.jpg"
+        ],
+        "name": "Capybara (Wasserschwein)",
+        "location": "Süd Amerika",
+        "coordinates": [],
+        "habitat": "Dichte Vegetation, Nahe Süßwasser",
+        "features": [],
+        "lifespan": "8 - 10 Jahre",
+        "size": "1 - 1.3m",
+        "weight": "30 - 70kg",
+        "prey": {
+          "primary": [
+            "Grässer",
+            "Wasserpflanzen",
+            "Borke (Rinde)"
+          ]
+        },
+        "lifestyle": "Herde",
+        "predators": [
+          "Jaguar",
+          "Kaiman",
+          "Harpyie"
+        ],
+        "biggest_thread": "Jagd & Verlust von Lebensraum",
+        "trivia": [
+          "Exzellente Taucher und Schwimmer",
+          "Größtes Tier unter den Nagetieren",
+          "Enge Verwandtschaft mit Meerschweinchen",
+          "Essen ihr eigenes Exkrement"
+        ],
+        "pet": false
+      },
+      {
+        "id": 502,
+        "urls": [
+          "https://a-z-animals.com/animals/capybara/",
+          "https://www.tierchenwelt.de/beuteltiere/618-opossum-beutelratte.html",
+          "https://www.mentalfloss.com/article/544902/facts-about-opossums"
+        ],
+        "imageUrls": [
+          "https://a-z-animals.com/media/animals/images/original/opossum3-400x300.jpg",
+          "https://s1.best-wallpaper.net/wallpaper/m/1401/Possums-mother-and-children_m.jpg",
+          "http://media.al.com/outdoors-alabama/photo/possum-0411jpg-d8f3393cd74cca37_large.jpg"
+        ],
+        "name": "Opossum",
+        "location": "Nord Amerika",
+        "coordinates": [],
+        "habitat": "Wälder und Buschland",
+        "features": [],
+        "lifespan": "2 - 7 Jahre",
+        "size": "bis 50cm",
+        "weight": "bis 6kg",
+        "prey": {
+          "primary": [
+            "Früchte",
+            "Insekten",
+            "Frösche"
+          ]
+        },
+        "lifestyle": "Einsam, Nachtaktiv",
+        "predators": [
+          "Füchse",
+          "Katzen",
+          "Raubvögel"
+        ],
+        "biggest_thread": "Jagd & Verlust von Lebensraum",
+        "trivia": [
+          "Ein gängiger Verteidigungsmechanismus ist das totstellen. Dieser kann nicht selbst kontrolliert werden",
+          "Sind sehr agil, dabei dient ihr Schwanz als fünftes Glied"
+        ],
+        "pet": false
+      },
+      {
+        "id": 503,
+        "urls": [
+          "https://a-z-animals.com/animals/arctic-fox/"
+        ],
+        "imageUrls": [
+          "https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,f_jpg,h_400,q_65,w_587/https://media.newmindmedia.com/TellUs/image/%3Ffile%3D_F6I6852_253514105.jpg%26dh%3D533%26dw%3D800%26t%3D4",
+          "https://a-z-animals.com/media/animals/images/original/arctic_fox_13-400x300.jpg",
+          "https://external-preview.redd.it/JLclsl2FMCNjw9d4fY8fJhvyKtL1tUPtuxlzG88H030.jpg?auto=webp&s=9745ad4b72b89cf8de880c587e5051f0d8dcf715",
+          "https://a-z-animals.com/media/animals/images/original/arctic_fox9-400x300.jpg"
+        ],
+        "name": "Polarfuchs",
+        "location": "Europa, Eurasien, Nordamerika",
+        "coordinates": [],
+        "habitat": "Polarwälder",
+        "features": [],
+        "lifespan": "7 - 10 Jahre",
+        "size": "70 - 110cm",
+        "weight": "1.4 - 9.4kg",
+        "prey": {
+          "primary": [
+            "Lemminge",
+            "Wühlmaus",
+            "Kleine Nagetiere",
+            "Beeren",
+            "Insekten"
+          ]
+        },
+        "lifestyle": "Einsam",
+        "predators": [
+          "Schnee-Eule",
+          "Wölfe",
+          "Eisbär"
+        ],
+        "trivia": [
+          "Die Farbe des Fells verändert sich nach Jahreszeit",
+          "Können bis zu 155km am Tag zurücklegen",
+          "Graben ausgeklügelte Höhlensysteme als Behausung",
+          "Können bis zu 50kmh schnell laufen"
+        ],
+        "pet": false
+      }
+    ]
+  }
+]

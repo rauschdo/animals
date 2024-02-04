@@ -1,0 +1,145 @@
+{
+  "category": "Pandas",
+  "orderIndex": 1,
+  "assetId": "panda_icon",
+  "kinds": [
+    {
+      "id": 100,
+      "urls": [
+        "https://a-z-animals.com/animals/giant-panda-bear/"
+      ],
+      "imageUrls": [
+        "https://media.istockphoto.com/photos/giant-panda-bear-picture-id475636556?k=20&m=475636556&s=170667a&w=0&h=D1PBdu6YZS-yc0BhT4RyWhqhKdj4-FzIaRZTh9wGGHE=",
+        "https://media.istockphoto.com/photos/giant-panda-baby-cub-in-chengdu-area-china-picture-id539113690?b=1&k=20&m=539113690&s=170667a&w=0&h=rfTZl3cGwuqENP0-LKhY9Zok05jtN2-gZSDy6xIfcB0=",
+        "https://media.gettyimages.com/photos/giant-panda-cub-born-in-2020-is-seen-at-china-conservation-and-for-picture-id1301133110?s=612x612",
+        "https://a.rgbimg.com/users/t/ta/tacluda/600/nr2SFC0.jpg"
+      ],
+      "name": "Großer Pandabär",
+      "location": "Asien - Dabie Mountains (zentral China)",
+      "coordinates": [
+        [
+          [
+            36.39091621787114,
+            93.0438854817055
+          ],
+          [
+            32.9217027560293,
+            116.8622448567055
+          ],
+          [
+            24.892074580411524,
+            109.4794323567055
+          ],
+          [
+            29.272654678673828,
+            93.4393932942055
+          ]
+        ]
+      ],
+      "estimate_count": 2000,
+      "habitat": "Feuchte Hochgebirgs-Bambuswälder",
+      "features": [
+        "Verlängerung des Handgelenksknochens fungiert als Daumen"
+      ],
+      "lifespan": "20 - 35 Jahre",
+      "size": "1,5 - 1,8m",
+      "weight": "110 - 250kg",
+      "prey": {
+        "primary": [
+          "Bambus",
+          "Früchte"
+        ],
+        "secondary": [
+          "Nagetiere"
+        ]
+      },
+      "lifestyle": "Tag- & Nachtaktiv",
+      "predators": [],
+      "biggest_thread": "Verlust von Lebensraum",
+      "trivia": [
+        "Ihre Diät besteht zu 99% aus Bambus!",
+        "Panda-Mütter halten während ihres ersten Monats fast 100% der Zeit Kontakt mit ihrem Jungen - wobei das Junge auf ihrer Vorderseite ruht und von ihrer Pfote, ihrem Arm oder ihrem Kopf bedeckt bleibt.",
+        "Können 14 Stunden mit dem Essen verbringen!"
+      ],
+      "pet": false
+    },
+    {
+      "id": 101,
+      "urls": [
+        "https://a-z-animals.com/animals/red-panda/"
+      ],
+      "imageUrls": [
+        "https://media.istockphoto.com/photos/red-panda-in-tree-picture-id466087002?k=20&m=466087002&s=612x612&w=0&h=H8X9g6WpAb05FixKEB9MQ0oXyNUav3WM5GeU9dkrF60=",
+        "https://a-z-animals.com/media/animals/images/original/red_panda10-400x300.jpg",
+        "https://a-z-animals.com/media/animals/images/original/red_panda4-400x300.jpg"
+      ],
+      "name": "Roter Panda",
+      "location": "Asien - Himalaya Gebirge",
+      "coordinates": [
+        [
+          [
+            37.237916092893016,
+            71.51256865872242
+          ],
+          [
+            32.48073484317796,
+            74.94030303372242
+          ],
+          [
+            28.15790589977504,
+            82.80651397122242
+          ],
+          [
+            26.910975443423464,
+            92.21081084622242
+          ],
+          [
+            28.814524110985722,
+            97.66002959622242
+          ],
+          [
+            35.71857577567411,
+            84.87194365872242
+          ],
+          [
+            37.72612861757805,
+            76.12682647122242
+          ]
+        ]
+      ],
+      "estimate_count": 3000,
+      "habitat": "Hochgebirgswald",
+      "features": [
+        "Rostfarbenes dickes Fell",
+        "Gestreiftes Gesicht"
+      ],
+      "lifespan": "8 - 12 Jahre",
+      "size": "60 - 120cm",
+      "weight": "3 - 6.2kg",
+      "prey": {
+        "primary": [
+          "Bambus",
+          "Beeren"
+        ],
+        "secondary": [
+          "Früchte",
+          "Insekten",
+          "Vogeleier",
+          "Kleine Echsen"
+        ]
+      },
+      "lifestyle": "Nachtaktiv",
+      "predators": [
+        "Schneeleopard",
+        "Marder",
+        "Mensch"
+      ],
+      "biggest_thread": "Verlust von Lebensraum",
+      "trivia": [
+        "Von ihnen gibt es weniger als 3000 in der Wildnis",
+        "Ein Tier des digitalen Zeitalters. Auch bekannt als 'Firefox' haben Sie einen Browser nach sich benannt.\nEbenfalls geben sie geräusche von sich die als 'twittering' (gezwitscher) bezeichnet wird"
+      ],
+      "pet": false
+    }
+  ]
+}

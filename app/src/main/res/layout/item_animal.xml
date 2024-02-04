@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="animal"
+            type="de.rauschdo.animals.database.Animal" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/animalCardRoot"
+        style="@style/CardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/view_margin_8">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/icon"
+                    android:layout_width="@dimen/view_size_48"
+                    android:layout_height="@dimen/view_size_48"
+                    tools:src="@drawable/ic_component_placeholder" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_size_48"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/view_margin_8"
+                    android:layout_marginEnd="@dimen/view_size_56"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title"
+                            style="@style/TextStyle.Inverse"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@{animal.name}"
+                            android:textSize="@dimen/textsize_20"
+                            android:textStyle="bold"
+                            tools:text="Lorem Ipsum" />
+
+                        <TextView
+                            android:id="@+id/subline"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:visibility="gone"
+                            tools:text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+                            tools:visibility="gone" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/primaryImage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_image_height"
+                tools:src="@drawable/ic_component_placeholder" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/additionalInfo"
+                    style="@style/TextStyle.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/view_margin_16"
+                    android:layout_toStartOf="@id/navigationArrow"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:paddingVertical="@dimen/view_margin_16"
+                    android:text="@{animal.triviaPoints.get(0)}"
+                    tools:text="@string/placeholder_big" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/navigationArrow"
+                    android:layout_width="@dimen/view_size_48"
+                    android:layout_height="@dimen/view_size_48"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_next"
+                    android:tint="?defaultIconTint" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <de.rauschdo.animals.custom.LikeButtonView
+            android:id="@+id/favouriteButton"
+            android:layout_width="@dimen/view_size_56"
+            android:layout_height="@dimen/view_size_64"
+            android:layout_gravity="end" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    <color name="textColorPrimary">@color/white_text</color>-->
+    <!--    <color name="textColorSecondary">@color/grey_text</color>-->
+    <!--    <color name="textColorPrimaryInverse">@color/black_text</color>-->
+    <color name="colorBackground">#1f1f1f</color>
+
+</resources>

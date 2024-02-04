@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="androidx.core.content.ContextCompat" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_text"
+        android:orientation="vertical">
+
+        <com.jsibbold.zoomage.ZoomageView
+            android:id="@+id/imageFullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:zoomage_animateOnReset="true"
+            app:zoomage_autoCenter="true"
+            app:zoomage_autoResetMode="UNDER"
+            app:zoomage_restrictBounds="false"
+            app:zoomage_translatable="true"
+            app:zoomage_zoomable="true" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/exitFullscreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/view_margin_16"
+            android:layout_marginEnd="@dimen/view_margin_16"
+            android:src="@drawable/ic_fullscreen_exit"
+            app:backgroundTint="@color/green_main"
+            app:maxImageSize="@dimen/view_size_48"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
+</layout>

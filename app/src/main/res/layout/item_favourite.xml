@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="animal"
+            type="de.rauschdo.animals.database.Animal" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/animalCardRoot"
+        style="@style/CardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/view_margin_16">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/primaryImage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_image_height"
+                android:layout_marginTop="@dimen/view_margin_8"
+                app:shapeAppearance="@style/ShapeAppearanceOverlay.App.RoundedCorners"
+                tools:src="@drawable/ic_component_placeholder" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/name"
+                    style="@style/TextStyle.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/view_margin_32"
+                    android:layout_toStartOf="@id/favouriteButton"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="@dimen/view_margin_16"
+                    android:text="@{animal.name}"
+                    android:textStyle="bold"
+                    tools:text="@string/placeholder_small" />
+
+                <de.rauschdo.animals.custom.LikeButtonView
+                    android:id="@+id/favouriteButton"
+                    android:layout_width="@dimen/view_size_56"
+                    android:layout_height="@dimen/view_size_64"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>

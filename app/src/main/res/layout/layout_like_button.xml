@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.rauschdo.animals.custom.DotsView
+        android:id="@+id/vDotsView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center" />
+
+    <de.rauschdo.animals.custom.CircleView
+        android:id="@+id/vCircle"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center" />
+
+    <CheckBox
+        android:id="@+id/ivStar"
+        android:layout_width="@dimen/view_size_24"
+        android:layout_height="@dimen/view_size_24"
+        android:layout_gravity="center"
+        android:background="@drawable/favourite_background_selector"
+        android:button="@null"
+        tools:checked="true" />
+
+</merge>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="defaultIconTint" format="reference" />
+
+    <declare-styleable name="OptionItem">
+        <attr name="title" format="string" />
+        <attr name="subtitle" format="string" />
+        <attr name="icon" format="reference" />
+        <attr name="iconTint" format="color" />
+        <attr name="hasToggle" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AppWidgetAttrs">
+        <attr name="appWidgetPadding" format="dimension" />
+        <attr name="appWidgetInnerRadius" format="dimension" />
+        <attr name="appWidgetRadius" format="dimension" />
+    </declare-styleable>
+
+</resources>

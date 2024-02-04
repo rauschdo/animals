@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="androidx.core.content.ContextCompat" />
+
+        <variable
+            name="model"
+            type="de.rauschdo.animals.database.CategoryWithAnimals" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/detailCoordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/brown_main_light"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbarlayout"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_alignParentTop="true"
+                android:background="@color/green_main"
+                android:fitsSystemWindows="true"
+                app:liftOnScroll="true">
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@+id/toolbar"
+                    style="@style/ToolbarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:navigationIcon="@drawable/ic_back">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginEnd="@dimen/view_margin_16"
+                        android:adjustViewBounds="true"
+                        tools:src="@drawable/panda_icon" />
+
+                </com.google.android.material.appbar.MaterialToolbar>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <LinearLayout
+                android:id="@+id/containerPagerControls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/appbarlayout"
+                android:layout_marginHorizontal="@dimen/view_margin_8"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/animationSelector"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/view_margin_4"
+                    android:hint="@string/transformerSelectionHint"
+                    android:visibility="gone"
+                    app:errorEnabled="true"
+                    app:helperText="@string/transformerSelectionHelper"
+                    app:helperTextEnabled="true"
+                    app:helperTextTextColor="@color/white_text"
+                    tools:visibility="visible">
+
+                    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                        android:id="@+id/animationSelection"
+                        style="@style/TextStyle.Inverse"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_image_height"
+                android:layout_below="@id/containerPagerControls"
+                android:visibility="visible"
+                tools:src="@drawable/ic_component_placeholder"
+                tools:visibility="visible" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/animalCategoryPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/containerSource"
+                android:layout_below="@id/containerPagerControls" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/containerSource"
+                style="@style/CardStyle.Flat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/view_margin_8"
+                android:layout_marginBottom="1dp"
+                app:cardBackgroundColor="@color/brown_main_light">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/view_margin_16"
+                        android:src="@drawable/ic_source" />
+
+                    <TextView
+                        android:id="@+id/source"
+                        style="@style/TextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/view_margin_16"
+                        android:gravity="center_vertical"
+                        android:paddingVertical="@dimen/view_margin_8"
+                        android:text="@string/disclaimer_source"
+                        android:textColor="@color/white_text" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Only used for In-App-Browsing Fallback or Image fullscreen toggle -->
+            <FrameLayout
+                android:id="@+id/containerFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="?actionBarSize"
+                android:animateLayoutChanges="true"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </RelativeLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

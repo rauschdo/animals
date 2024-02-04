@@ -1,0 +1,132 @@
+{
+  "category": "Hunde",
+  "orderIndex": 2,
+  "assetId": "dog_icon",
+  "kinds": [
+    {
+      "id": 200,
+      "urls": [
+        "https://a-z-animals.com/animals/labrador-retriever/"
+      ],
+      "imageUrls": [
+        "https://a-z-animals.com/media/Labrador-Retriever-Canis-familiaris-colorings-400x300.jpg",
+        "https://a-z-animals.com/media/Labrador-Retriever-Canis-familiaris-puppy-with-mom-400x300.jpg",
+        "https://a-z-animals.com/media/Labrador-Retriever-Canis-familiaris-fetching-400x300.jpg"
+      ],
+      "name": "Labrador",
+      "location": "Vereinigtes Königreich",
+      "coordinates": [],
+      "lifespan": "10 - 15 Jahre",
+      "size": "55 - 65cm",
+      "weight": "25 - 35kg",
+      "trivia": [
+        "Energiegeladen und Wasser liebend!",
+        "Anzahl der Registierungen Zufolge die populärste Hunderasse (Amerika & Europa + Vereintes Königreich)",
+        "Ihr starker Schwanz ermöglicht volle Kontrolle beim Schwimmen und ihr dichtes Fell\ndas Sie auch in kalten Gewässern ohne Probleme zurechtkommen.",
+        "Gehören zu den vielseitigsten Hunderassen wenn es darum geht Aufgaben auszuführen."
+      ],
+      "temper": [
+        "Freundlich",
+        "Aktiv",
+        "Verspielt"
+      ],
+      "pet": true
+    },
+    {
+      "id": 201,
+      "urls": [
+        "https://a-z-animals.com/animals/bernese-mountain-dog/",
+        "https://a-z-animals.com/animals/saint-bernard/"
+      ],
+      "imageUrls": [
+        "https://thehappypuppysite.com/wp-content/uploads/2018/12/Bernese-Mountain-Dog-Vs-St-Bernard-long.jpg",
+        "https://thehappypuppysite.com/wp-content/uploads/2018/10/bernese-mountain-dog-names-long.jpg",
+        "https://a-z-animals.com/media/2018/09/Saint-Bernard-puppy-400x300.jpg",
+        "https://assets.orvis.com/is/image/orvisprd/AdobeStock_101064662?wid=1023&src=is($object$:7-3)"
+      ],
+      "name": "Berner Sennenhund & Bernhardiner",
+      "location": "Europa (Schweiz)",
+      "coordinates": [],
+      "lifespan": "[Berner Sennenhund] 6 - 8 Jahre\n[Bernhardiner] 10 Jahre",
+      "size": "[Berner Sennenhund] 60 - 70cm\n[Bernhardiner] 65 - 90cm",
+      "weight": "[Berner Sennenhund] 35 - 50kg\n[Bernhardiner] 55 - 85kg",
+      "trivia": [
+        "Sehr loyal und Liebevoll.",
+        "[Berner Sennenhund] Wird häufig als eine 'vielseitige' Hunderasse bezeichnet da Sie auch Erfolge im Hundesport verzeichnet.",
+        "[Bernhardiner] Besitzen eine langsame Entwicklung in die Reife und behalten ihre Welpenmentalitäten wesentlich länger als andere Hunderassen.",
+        "Die Darstellung dieser Hunderassen mit dem Fass um den Nacken gebunden entsprang\ndem Kunstwerk 'Alpine Mastiffs Reanimating a Distressed Traveler' von Sir Edwin Landseer\nwelches er mit 17 Jahren schuf.\nDer Reisende wurde in einem Blizzard erfasst, die Flüssigkeit im Fass ist eine Alkoholische (Kognak).\nDurch den Blutstrom und Erweiterung der Blutgefäße durch Alkohol resultierend in einem drastischen Anstieg der Körpertemperatur.\nDiese Darstellung von Rettungshunden mit Fass in alpinen Gebirgen hat sich eingebettet in das öffentliche Bild."
+      ],
+      "temper": [
+        "Intelligent",
+        "Sehr Freundlich",
+        "Aufmerksam"
+      ],
+      "pet": true
+    },
+    {
+      "id": 202,
+      "urls": [
+        "https://a-z-animals.com/animals/australian-shepherd/"
+      ],
+      "imageUrls": [
+        "https://www.akc.org/wp-content/uploads/2017/01/australian-shepherd-puppy.jpeg",
+        "https://i.imgur.com/53jopLR.jpg"
+      ],
+      "name": "Australian Shepherd",
+      "location": "Nord Amerika & Ozeanien",
+      "coordinates": [],
+      "lifespan": "15 Jahre",
+      "size": "45 - 60cm",
+      "weight": "18 - 30kg",
+      "trivia": [
+        "Süß, treu und anhänglich!",
+        "Stammen nicht aus Australien!",
+        "Besitzen häufig verschiedene Augenfarben.",
+        "In den 1970er unterhielt der Frisbee Champion &lt;a href=\"https://www.australian-shepherd-forum.de/hyper-hank-frisbee-fangender-aussie/\">Hyper Hank&lt;/a>"
+      ],
+      "temper": [
+        "Intelligent",
+        "Anhänglich",
+        "Freundlich",
+        "Aktiv",
+        "Beschützend"
+      ],
+      "pet": true
+    },
+    {
+      "id": 203,
+      "urls": [
+        "https://a-z-animals.com/animals/pembroke-welsh-corgi/"
+      ],
+      "imageUrls": [
+        "https://a-z-animals.com/media/2021/08/Pembroke-Welsh-Corgi-Leaping-in-the-Field-400x300.jpg",
+        "https://a-z-animals.com/media/2021/08/Older-and-Younger-Pembroke-Welsh-Corgi-Take-a-Walk.jpg",
+        "https://a-z-animals.com/media/2021/08/Corgi-Close-Up-400x300.jpg",
+        "https://a-z-animals.com/media/2021/08/Pembroke-Welsh-Corgi-with-its-Tongue-Out-400x300.jpg"
+      ],
+      "name": "Welsh Corgi Pembroke",
+      "location": "Vereinigtes Königreich",
+      "coordinates": [],
+      "features": [
+        "Tief angesetzter Körper",
+        "Große aufrechte Ohren",
+        "Stummelschwanz"
+      ],
+      "lifespan": "12 - 15 Jahre",
+      "size": "25 - 30cm",
+      "weight": "10 - 14kg",
+      "trivia": [
+        "Die Lieblings Hunderasse von Queen Elizabeth II",
+        "Gehören zur Gruppe der Herdenhunde, darunter bekannt als 'Heelers'.\nDas bedeutet sie knabbern an den Fersen größerer Tiere damit sie sich bewegen,",
+        "Das Wort Corgi stammt aus der Welschen Sprache. Cor für Zwerg und gi für Hund.",
+        "Neben dieser Rasse gibt es den Welsh Corgi ohne Zusatz der als separate Rasse anerkannt wird."
+      ],
+      "temper": [
+        "Liebevoll",
+        "Lebenslustig",
+        "Intelligent"
+      ],
+      "pet": true
+    }
+  ]
+}

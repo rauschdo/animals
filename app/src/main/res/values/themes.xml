@@ -1,0 +1,155 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Animals" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_main</item>
+        <item name="colorPrimaryVariant">@color/green_main_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/brown_main</item>
+        <item name="colorSecondaryVariant">@color/brown_main_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Time Picker -->
+        <!-- selected background -->
+        <item name="colorPrimaryContainer">@color/white_text</item>
+        <!-- clock and unselected background -->
+        <!--        <item name="colorSurfaceVariant"></item>-->
+        <!-- display text color-->
+        <!--        <item name="colorOnSurface">@color/brown_main_light</item>-->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <item name="defaultIconTint">@color/green_main</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_bounce</item>
+        <item name="android:windowExitAnimation">@anim/dialog_scale_fade_out</item>
+    </style>
+
+    <style name="DialogTheme.Compat" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+        <item name="dialogCornerRadius">8dp</item>
+    </style>
+
+    <style name="ActionModeStyle" parent="Widget.Material3.ActionMode">
+        <item name="background">@drawable/rectangle_green</item>
+        <item name="contentInsetStart">@dimen/view_margin_8</item>
+        <item name="closeItemLayout">@layout/layout_action_mode_close</item>
+        <item name="titleTextStyle">@style/ActionModeStyle.Title</item>
+        <item name="subtitleTextStyle">@style/ActionModeStyle.Subtitle</item>
+    </style>
+
+    <style name="OverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="tint">@color/white</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="ActionModeStyle.Title" parent="TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">@color/white_text</item>
+        <item name="android:textSize">@dimen/textsize_20</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="ActionModeStyle.Subtitle" parent="TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
+        <item name="android:textColor">@color/white_text</item>
+        <item name="android:textSize">@dimen/textsize_16</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="BottomNavigationStyle" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/green_main</item>
+        <item name="elevation">0dp</item>
+        <item name="itemRippleColor">@color/greyParicle</item>
+        <item name="itemIconTint">@color/bottom_navigation_color_selector</item>
+        <item name="itemTextColor">@color/white_text</item>
+        <item name="labelVisibilityMode">unlabeled</item>
+        <item name="itemActiveIndicatorStyle">@style/BottomNavigationActiveIndicator</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="BottomNavigationActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/white_text</item>
+    </style>
+
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/card_default_radius</item>
+        <item name="cardElevation">@dimen/card_default_elevation</item>
+    </style>
+
+    <style name="CardStyle.Flat" parent="CardStyle">
+        <item name="cardCornerRadius">0dp</item>
+    </style>
+
+    <style name="ProgressStyle" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:layout_marginStart">@dimen/view_margin_32</item>
+        <item name="android:layout_marginEnd">@dimen/view_margin_32</item>
+        <item name="android:indeterminate">true</item>
+        <item name="hideAnimationBehavior">outward</item>
+        <item name="showAnimationBehavior">inward</item>
+        <item name="indicatorDirectionLinear">leftToRight</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/green_main</item>
+        <item name="android:elevation">@dimen/design_appbar_elevation</item>
+        <item name="navigationIcon">@drawable/ic_back</item>
+        <item name="navigationIconTint">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+    </style>
+
+    <style name="SwitchStyle" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="thumbTint">@color/switch_thumb_selector</item>
+        <item name="trackTint">@color/switch_track_selector</item>
+        <item name="android:textColor">@color/textColorPrimaryInverse</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="TextStyle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/textsize_16</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:drawablePadding">@dimen/view_margin_8</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="TextStyle.Subline" parent="TextStyle">
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="TextStyle.Inverse" parent="TextStyle">
+        <item name="android:textColor">@color/textColorPrimaryInverse</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="TextStyle.Subline.Inverse" parent="TextStyle.Subline">
+        <item name="android:textColor">@color/textColorPrimaryInverse</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="TextStyle.Secondary" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">@color/white_text</item>
+        <item name="fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="Theme.Animals.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <item name="appWidgetRadius">8dp</item>
+        <item name="appWidgetPadding">4dp</item>
+        <item name="appWidgetInnerRadius">4dp</item>
+    </style>
+
+    <style name="Theme.Animals.AppWidgetContainer" parent="Theme.Animals.AppWidgetContainerParent" />
+
+    <style name="ShapeAppearanceOverlay.App.RoundedCorners" parent="">
+        <item name="cornerSize">40dp</item>
+        <item name="cornerRadius">@dimen/card_default_radius</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+    </style>
+
+</resources>

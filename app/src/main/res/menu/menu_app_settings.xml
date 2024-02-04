@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_sheet"
+        android:icon="@drawable/ic_color_settings"
+        android:title="@string/menu_sheet"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_license"
+        android:icon="@drawable/ic_license"
+        android:title="@string/menu_license"
+        app:iconTint="?defaultIconTint"
+        app:showAsAction="never" />
+
+</menu>

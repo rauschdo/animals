@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.Animals.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_background"
+    android:theme="@style/Theme.Animals.AppWidgetContainer"
+    tools:ignore="RelativeOverlap, ContentDescription">
+
+    <LinearLayout
+        android:id="@+id/widget_content_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/widget_top_row"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_top_bar_height">
+
+            <ImageView
+                android:id="@+id/widget_top_row_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle_rounded_corners_top_widget" />
+
+            <RelativeLayout
+                android:id="@+id/widget_top_row_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/view_margin_8"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/widget_icon"
+                    android:layout_width="@dimen/view_size_36"
+                    android:layout_height="@dimen/view_size_36"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/view_margin_8"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/widget_app_name"
+                    style="@style/TextStyle.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/view_margin_8"
+                    android:layout_toEndOf="@id/widget_icon"
+                    android:text="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/widget_next_animal_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/view_size_36"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:paddingHorizontal="@dimen/view_margin_8"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_fast_forward" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/widget_content_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_margin_16"
+            android:layout_marginEnd="@dimen/view_margin_8"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/view_margin_8">
+
+            <ImageView
+                android:id="@+id/ivQuotation"
+                android:layout_width="@dimen/view_size_24"
+                android:layout_height="@dimen/view_size_24"
+                android:layout_marginTop="@dimen/view_margin_8"
+                android:src="@drawable/ic_quotation" />
+
+            <TextView
+                android:id="@+id/widget_animal"
+                style="@style/TextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/view_margin_8"
+                android:layout_marginTop="@dimen/view_margin_8"
+                android:layout_toEndOf="@id/ivQuotation"
+                tools:text="@string/widget_animal_facts_for" />
+
+            <!-- ViewFlipper cuts height short with TextViews so trick around it -->
+            <TextView
+                android:id="@+id/size_orientation_widget_animal_facts_flipper_small"
+                style="@style/TextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/widget_animal"
+                android:layout_alignStart="@id/widget_animal"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/view_margin_8"
+                android:ellipsize="end"
+                android:textSize="@dimen/textsize_14"
+                android:visibility="invisible"
+                tools:text="@string/placeholder_big" />
+
+            <ViewFlipper
+                android:id="@+id/widget_animal_facts_flipper"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/widget_animal"
+                android:layout_alignStart="@id/widget_animal"
+                android:layout_alignBottom="@id/size_orientation_widget_animal_facts_flipper_small"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/view_margin_8"
+                android:inAnimation="@android:anim/fade_in"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/widget_animal_facts_0"
+                    style="@style/TextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_14"
+                    tools:text="@string/placeholder_big" />
+
+                <TextView
+                    android:id="@+id/widget_animal_facts_1"
+                    style="@style/TextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_14"
+                    tools:text="@string/placeholder_big" />
+
+            </ViewFlipper>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

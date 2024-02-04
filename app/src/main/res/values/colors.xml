@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_main">#2E7D32</color>
+    <color name="green_main_light">#60AD5E</color>
+    <color name="green_main_dark">#005005</color>
+
+    <color name="brown_main">#795548</color>
+    <color name="brown_main_light">#A98274</color>
+    <color name="brown_main_dark">#4B2C20</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="black_text">#1f1f1f</color>
+    <color name="white_text">#f0f0f0</color>
+    <color name="grey_text">#9EA4BD</color>
+
+    <color name="blue">#3F51B5</color>
+    <color name="dark_blue">#303F9F</color>
+    <color name="accent_pink">#FF4081</color>
+
+    <color name="blueAccent">#4285f4</color>
+    <color name="greyParicle">#959595</color>
+
+    <!-- #FFCD3C -->
+    <color name="star_yellow">#FDCC0D</color>
+
+    <color name="dots_color_1">#FFC107</color>
+    <color name="dots_color_2">#FF9800</color>
+    <color name="dots_color_3">#FF5722</color>
+    <color name="dots_color_4">#F44336</color>
+
+    <color name="circle_start">#FF5722</color>
+    <color name="circle_end">#FFC107</color>
+
+    <color name="green_main_light_track_color">#4D60AD5E</color>
+
+    <!-- Theme specific colors -->
+    <color name="textColorPrimary">@color/white_text</color>
+    <color name="textColorSecondary">@color/grey_text</color>
+    <color name="textColorPrimaryInverse">@color/black_text</color>
+    <color name="colorBackground">#fefefe</color>
+    <color name="grey_200">#eeeeee</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+</resources>

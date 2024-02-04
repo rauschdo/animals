@@ -1,0 +1,161 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tierwelt</string>
+    <string name="title_home">Übersicht</string>
+    <string name="title_favorites">Favoriten</string>
+    <string name="title_settings">Einstellungen</string>
+
+    <string name="welcome">Willkommen</string>
+    <string name="intro_text">Intro Text</string>
+    <string name="intro_text_2">@string/placeholder_big</string>
+    <string name="delete">Löschen</string>
+    <string name="next">Weiter</string>
+
+    <string name="menu_edit">Editieren</string>
+    <string name="menu_confetti">Überraschung</string>
+    <string name="menu_reset">Zurücksetzen</string>
+    <string name="menu_license">Lizenzen</string>
+
+    <string name="menu_direction">Ändern Swipe Richtung zum Blättern</string>
+    <string name="menu_sheet">App Darstellung Einstellungen</string>
+
+    <string name="menu_action_title">Tiere löschen: %d ausgewählt</string>
+    <string name="menu_action_subtitle">Zurücksetzbar über Menü außerhalb Selektionsmodus</string>
+
+    <string name="section_title_panda">Pandas</string>
+    <string name="section_title_turtle">Schildkröten</string>
+
+    <string name="settings_use_favorites_title">Fakten auf \'Favoriten\' restriktieren</string>
+    <string name="settings_use_favorites_subtitle">Liegen keine vor kommen alle Tiere in Frage\nGilt nur für Notification, nicht App Widget</string>
+
+    <string name="app_options">App Einstellungen</string>
+
+    <string name="option_theme_title">AppTheme</string>
+    <string name="option_light_mode">Light</string>
+    <string name="option_night_mode">Dark</string>
+    <string name="option_system_default">System default</string>
+
+    <!-- Notifications -->
+    <string name="settings_notification_enabler">Notifications erlauben</string>
+    <string name="settings_notification_title">Täglicher Tierfakt</string>
+    <string name="settings_notification_description">%s \n\nBitte beachte, dass die Benachrichtigung möglicherweise nicht funktioniert, wenn die App auf einigen Huawei-, Xiaomi- und OnePlus-Geräten vom System beendet wird. Weitere Informationen findest du unter dontkillmyapp.com</string>
+    <string name="notification_title">Ihr heutiger Tierfakt zu %s</string>
+
+    <string name="dev_name" translatable="false">Dominik Rausch</string>
+    <string name="dev_description">B.Sc. | Android Developer</string>
+    <string name="dev_email" translatable="false" tools:ignore="Typos"></string>
+    <string name="dev_instagram" translatable="false">https://www.instagram.com/rausch.do/</string>
+    <string name="dev_twitter" translatable="false">https://twitter.com/rauschdo</string>
+    <string name="dev_linkedin" translatable="false">https://www.linkedin.com/in/dominik-rausch/</string>
+    <string name="dev_github" translatable="false">https://github.com/rauschdo</string>
+
+    <string name="get_in_contact">Entwickler kontaktieren</string>
+
+    <string name="disclaimer_source">Quelle der Schlüsseldaten:\n%s</string>
+
+    <string name="notification_url">https://dontkillmyapp.com/</string>
+    <string name="notification_url_span">dontkillmyapp.com</string>
+
+    <string name="add_widget">Tierwelt Quickfact</string>
+    <string name="app_widget_description">Widget zum Abrufen zufälliger Tierfakten</string>
+
+    <string name="widget_animal_facts_for">Fakt zu %s</string>
+
+    <string name="placeholder_big">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
+    <string name="placeholder_small">Lorem ipsum dolor sit amet, consetetur</string>
+
+    <string name="app_info_version">App-Version</string>
+    <string name="app_info_device_name">Gerät</string>
+    <string name="app_info_android_version">Android</string>
+
+    <string name="no_favourites">Keine Favoriten vorhanden</string>
+    <string name="no_categories">Keine Kategorien vorhanden</string>
+
+    <string name="order_option_title">Kategorien ordnen</string>
+
+    <string name="order_fragment_text">Wählen und sortieren Sie die Kategorien nach Ihren Vorstellungen, um sie in der Übersicht anzeigen zu lassen.</string>
+
+    <string name="transformerSelectionHint">Animationsname</string>
+    <string name="transformerSelectionHelper">Animationseffekt beim Swippen zwischen Seiten</string>
+
+    <string name="noTransformer">Default Animation</string>
+    <string name="AccordionTransformer">Accordion</string>
+    <string name="AntiClockSpinTransformer">AntiClockSpin</string>
+    <string name="BackDrawTransformer">BackDraw</string>
+    <string name="BackgroundToForegroundTransformer">BackgroundToForeground</string>
+    <string name="ClockSpinTransformer">ClockSpin</string>
+    <string name="CubeInDepthTransformer">CubeInDepth</string>
+    <string name="CubeInScalingTransformer">CubeInScaling</string>
+    <string name="CubeInTransformer">CubeIn</string>
+    <string name="CubeOutDepthTransformer">CubeOutDepth</string>
+    <string name="CubeOutScalingTransformer">CubeOutScaling</string>
+    <string name="CubeOutTransformer">CubeOut</string>
+    <string name="DepthTransformer">Depth</string>
+    <string name="FadeOutTransformer">FadeOut</string>
+    <string name="FanTransformer">Fan</string>
+    <string name="FidgetSpinTransformer">FidgetSpin</string>
+    <string name="ForegroundToBackgroundTransformer">ForegroundToBackground</string>
+    <string name="GateTransformer">Gate</string>
+    <string name="HingeTransformer">Hinge</string>
+    <string name="HorizontalFlipTransformer">HorizontalFlip</string>
+    <string name="ParallaxTransformer">Parallax</string>
+    <string name="PopTransformer">Pop</string>
+    <string name="RotateDownTransformer">RotateDown</string>
+    <string name="RotateUpTransformer">RotateUp</string>
+    <string name="SpinnerTransformer">Spinner</string>
+    <string name="StackTransformer">Stack</string>
+    <string name="TabletTransformer">Tablet</string>
+    <string name="TossTransformer">Toss</string>
+    <string name="VerticalFlipTransformer">VerticalFlip</string>
+    <string name="VerticalShutTransformer">VerticalShut</string>
+    <string name="ZoomInTransformer">ZoomIn</string>
+    <string name="ZoomOutSlideTransformer">ZoomOutSlide</string>
+    <string name="ZoomOutTransformer">ZoomOut</string>
+    <string name="life_expectancy">Lebenserwartung</string>
+    <string name="size">Größe</string>
+    <string name="weight">Gewicht</string>
+    <string name="trivia">Trivia</string>
+    <string name="primary">Primär</string>
+    <string name="secondary">Sekundär</string>
+    <string name="features">Merkmale</string>
+    <string name="temper">Verhalten</string>
+    <string name="food">Nahrung</string>
+    <string name="lifestyle">Lebensstil</string>
+    <string name="predators_a_threads"><![CDATA[Feinde & Gefahren]]></string>
+
+    <string-array name="transformations">
+        <item name="noTransformer">@string/noTransformer</item>
+        <item name="AccordionTransformer">@string/AccordionTransformer</item>
+        <item name="AntiClockSpinTransformer">@string/AntiClockSpinTransformer</item>
+        <item name="BackDrawTransformer">@string/BackDrawTransformer</item>
+        <item name="BackgroundToForegroundTransformer">@string/BackgroundToForegroundTransformer</item>
+        <item name="ClockSpinTransformer">@string/ClockSpinTransformer</item>
+        <item name="CubeInDepthTransformer">@string/CubeInDepthTransformer</item>
+        <item name="CubeInScalingTransformer">@string/CubeInScalingTransformer</item>
+        <item name="CubeInTransformer">@string/CubeInTransformer</item>
+        <item name="CubeOutDepthTransformer">@string/CubeOutDepthTransformer</item>
+        <item name="CubeOutScalingTransformer">@string/CubeOutScalingTransformer</item>
+        <item name="CubeOutTransformer">@string/CubeOutTransformer</item>
+        <item name="DepthTransformer">@string/DepthTransformer</item>
+        <item name="FadeOutTransformer">@string/FadeOutTransformer</item>
+        <item name="FanTransformer">@string/FanTransformer</item>
+        <item name="FidgetSpinTransformer">@string/FidgetSpinTransformer</item>
+        <item name="ForegroundToBackgroundTransformer">@string/ForegroundToBackgroundTransformer</item>
+        <item name="GateTransformer">@string/GateTransformer</item>
+        <item name="HingeTransformer">@string/HingeTransformer</item>
+        <item name="HorizontalFlipTransformer">@string/HorizontalFlipTransformer</item>
+        <item name="ParallaxTransformer">@string/ParallaxTransformer</item>
+        <item name="PopTransformer">@string/PopTransformer</item>
+        <item name="RotateDownTransformer">@string/RotateDownTransformer</item>
+        <item name="RotateUpTransformer">@string/RotateUpTransformer</item>
+        <item name="SpinnerTransformer">@string/SpinnerTransformer</item>
+        <item name="StackTransformer">@string/StackTransformer</item>
+        <item name="TabletTransformer">@string/TabletTransformer</item>
+        <item name="TossTransformer">@string/TossTransformer</item>
+        <item name="VerticalFlipTransformer">@string/VerticalFlipTransformer</item>
+        <item name="VerticalShutTransformer">@string/VerticalShutTransformer</item>
+        <item name="ZoomInTransformer">@string/ZoomInTransformer</item>
+        <item name="ZoomOutSlideTransformer">@string/ZoomOutSlideTransformer</item>
+        <item name="ZoomOutTransformer">@string/ZoomOutTransformer</item>
+    </string-array>
+
+</resources>

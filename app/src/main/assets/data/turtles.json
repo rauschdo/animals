@@ -1,0 +1,49 @@
+{
+  "category": "Schildkröten",
+  "orderIndex": 3,
+  "assetId": "turtle_icon",
+  "kinds": [
+    {
+      "id": 300,
+      "urls": [
+        "https://a-z-animals.com/animals/sea-turtle/"
+      ],
+      "imageUrls": [
+        "https://media.istockphoto.com/photos/turtle-closeup-with-school-of-fish-picture-id1170804921?k=20&m=1170804921&s=612x612&w=0&h=W4zAOSr9DzJvJO-uib7GiwZ9kaleupO_LspfXvOT0HE="
+      ],
+      "name": "Meeresschildkröte",
+      "location": "Ozeane",
+      "estimate_count": -1,
+      "habitat": "Tropische Küstengewässer und Strände",
+      "features": [
+        "Große stromlinienförmige Schale",
+        "Nicht einziehbarer Kopf und Gliedmaßen"
+      ],
+      "coordinates": [],
+      "lifespan": "60 - 80 Jahre",
+      "size": "Speziesabhängig:\nLederschildkröte 1,8 - 2,5m\nAndere Ø 60 - 120cm",
+      "weight": "158 - 700kg (Ausgewachsen)",
+      "prey": {
+        "primary": [
+          "Fisch",
+          "Krabben"
+        ],
+        "secondary": [
+          "Seetang",
+          "Quallen"
+        ]
+      },
+      "lifestyle": "Tag- & Nachtaktiv",
+      "predators": [
+        "Feuerameisen, Geisterkrabben",
+        "als auch Hunde, Katzen, Waschbären, Eber"
+      ],
+      "biggest_thread": "Öllachen, Meeresverschmutzung",
+      "trivia": [
+        "Es existieren sieben verschiedene Spezies von Meeresschildkröten.",
+        "Kehren immer zum selben Strand zurück um Eier zu legen."
+      ],
+      "pet": false
+    }
+  ]
+}

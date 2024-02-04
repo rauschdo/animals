@@ -1,0 +1,250 @@
+{
+  "category": "Vögel",
+  "orderIndex": 4,
+  "assetId": "bird_icon",
+  "kinds": [
+    {
+      "id": 400,
+      "urls": [
+        "https://a-z-animals.com/animals/emperor-penguin/"
+      ],
+      "imageUrls": [
+        "https://media.istockphoto.com/photos/emperor-penguin-picture-id149468325",
+        "https://media.istockphoto.com/photos/portrait-of-emperor-penguins-in-their-natural-habitat-picture-id147675078",
+        "https://media.istockphoto.com/photos/emperor-penguins-with-chick-picture-id146729730"
+      ],
+      "name": "Kaiserpinguin",
+      "location": "Antarktis",
+      "coordinates": [],
+      "estimate_count": 400000,
+      "habitat": "Ozean, Eisschollen",
+      "features": [
+        "Federn an Nacken und Ohren"
+      ],
+      "lifespan": "15 - 50 Jahre",
+      "size": "1 - 1,2m",
+      "weight": "22 - 45kg",
+      "prey": {
+        "primary": [
+          "Fisch",
+          "Krill",
+          "Tintenfisch"
+        ],
+        "secondary": []
+      },
+      "lifestyle": "Tagaktiv",
+      "predators": [
+        "Riesensturmvogel",
+        "Seeleopard",
+        "Schwertwal"
+      ],
+      "biggest_thread": "Klimawandel",
+      "trivia": [
+        "Die größte Pinguin Spezies!",
+        "Leben in Kolonien die tausende Individuen stark sein können.",
+        "Schwimmen so schnell wie Delfine."
+      ],
+      "pet": false
+    },
+    {
+      "id": 401,
+      "urls": [
+        "https://a-z-animals.com/animals/sparrow/"
+      ],
+      "imageUrls": [
+        "https://a-z-animals.com/media/2018/09/Sparrow-on-branch-400x300.jpg",
+        "https://a-z-animals.com/media/2018/09/Sparrow-baby-400x300.jpg",
+        "https://a-z-animals.com/media/2018/09/Sparrow-on-cactus-400x300.jpg",
+        "https://a-z-animals.com/media/2018/09/Sparrow-russet-400x300.jpg"
+      ],
+      "name": "Spatz",
+      "location": "Weltweit (ausgeschlossen Antarktis)",
+      "coordinates": [],
+      "estimate_count": 1600000000,
+      "habitat": "Ländliche Gegenden, Waldland",
+      "features": [
+        "Kleine Körper und gerundeter Kopf"
+      ],
+      "lifespan": "4 - 7 Jahre",
+      "size": "11 - 18cm",
+      "weight": "13 - 42g",
+      "prey": {
+        "primary": [
+          "Insekten",
+          "Samen",
+          "Beeren"
+        ],
+        "secondary": []
+      },
+      "lifestyle": "In Herden",
+      "predators": [
+        "Katzen",
+        "Schlangen",
+        "Falken"
+      ],
+      "trivia": [
+        "Von ihnen gibt es mehr als 140 verschiedene Spezies.",
+        "Sie können zwischen 38,5 und 50km die Stunde zurücklegen.",
+        "Sie sind genannt in vielen antiken Schriften, inklusive der Bibel."
+      ],
+      "pet": false
+    },
+    {
+      "id": 402,
+      "urls": [
+        "https://a-z-animals.com/animals/toucan/"
+      ],
+      "imageUrls": [
+        "https://a-z-animals.com/media/Toucan-Plate-billed-400x300.jpg",
+        "https://a-z-animals.com/media/Toucan-Brazilian-400x300.jpg",
+        "https://a-z-animals.com/media/Toucan-chicks-400x300.jpg",
+        "https://a-z-animals.com/media/Toucan-sideview-400x300.jpg"
+      ],
+      "name": "Toucan",
+      "location": "Zentral/Südamerika",
+      "coordinates": [],
+      "estimate_count": 10000,
+      "habitat": "Regen, Tropenwälder",
+      "features": [
+        "Kleine Körper und enormer, farbiger Schnabel"
+      ],
+      "lifespan": "12 - 20 Jahre",
+      "size": "29 - 63cm",
+      "weight": "130 - 680g",
+      "prey": {
+        "primary": [
+          "Früchte",
+          "Eier",
+          "Insekten"
+        ],
+        "secondary": []
+      },
+      "lifestyle": "Einsam",
+      "predators": [
+        "Menschen",
+        "Wiesel",
+        "Große Vögel"
+      ],
+      "trivia": [
+        "Ihr Schabel kann bis zu einem drittel Ihrer größe Lang sein",
+        "Toucane sind schlechte Flieger",
+        "Ihr Schnabel ist hohl"
+      ],
+      "pet": false
+    },
+    {
+      "id": 403,
+      "urls": [
+        "https://a-z-animals.com/animals/hummingbird/"
+      ],
+      "imageUrls": [
+        "https://a-z-animals.com/media/hummingbird-3-400x300.jpg",
+        "https://a-z-animals.com/media/hummingbird-1-400x300.jpg",
+        "https://a-z-animals.com/media/hummingbird-5-400x300.jpg"
+      ],
+      "name": "Kolibri",
+      "location": "Amerika (Süd/Nord)",
+      "coordinates": [],
+      "habitat": "Regenwälder, Tropische Gebiete",
+      "features": [
+        "Langer, dünner Schabel",
+        "Fähigkeit in Stelle zu schweben"
+      ],
+      "lifespan": "3 - 5 Jahre",
+      "size": "5 - 20cm",
+      "weight": "2 - 20g",
+      "prey": {
+        "primary": [
+          "Nektar",
+          "Baumsaft",
+          "Insekten",
+          "Spinnen"
+        ],
+        "secondary": []
+      },
+      "lifestyle": "Einsam",
+      "predators": [
+        "Falken",
+        "Schlangen",
+        "Echsen"
+      ],
+      "trivia": [
+        "Können ihre Flügel bis zu 80mal die Sekunde schlagen!",
+        "Kolibrieier sind nur 1cm groß.",
+        "Maximale Fluggeschwindigkeit liegt bei etwa 48km/h."
+      ],
+      "pet": false
+    },
+    {
+      "id": 404,
+      "urls": [
+        "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/birds/blue-tit/",
+        "https://twootz.com/bird/Blue-Tit"
+      ],
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/29/ParusCaeruleus.jpg",
+        "https://wtlivewebtierstorage.blob.core.windows.net/cache/1/f/6/6/4/5/1f6645282f03e6dc8a4c5460ea34e9fca13f3659.jpg",
+        "https://twootz.com/assets/images/bird/birdinhand3693.jpg"
+      ],
+      "name": "Blaumeise",
+      "location": "Europa (primär Vereintes Königreich)",
+      "coordinates": [],
+      "habitat": "Grünland, Wälder",
+      "features": [
+        "Blauer Kopf, weiße Wangen, schwarze Augenstreifen"
+      ],
+      "lifespan": "3 Jahre",
+      "size": "10.5 - 12cm",
+      "weight": "8 - 10g",
+      "prey": {
+        "primary": [
+          "Insekten",
+          "Raupen",
+          "Samen",
+          "Nüsse"
+        ],
+        "secondary": []
+      },
+      "lifestyle": "In Herden",
+      "predators": [
+        "Sperber",
+        "Wiesel",
+        "Eulen"
+      ],
+      "trivia": [
+        "Klein, flauschig und hyperaktiv!",
+        "Ein sesshafter Vogel. Studien besagen das nur etwa 1.2 % im Winter mehr als 20km migrieren.",
+        "Maximale Fluggeschwindigkeit liegt zwischen 25 und 34km/h."
+      ],
+      "pet": false
+    },
+    {
+      "id": 405,
+      "urls": [
+        "https://kidadl.com/animal-facts/pale-billed-flowerpecker-facts"
+      ],
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Pale-billed_Flowerpecker_%28Dicaeum_erythrorhynchos%29_preening_in_Hyderabad%2C_AP_W_IMG_7326.jpg/440px-Pale-billed_Flowerpecker_%28Dicaeum_erythrorhynchos%29_preening_in_Hyderabad%2C_AP_W_IMG_7326.jpg",
+        "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/126373381/480"
+      ],
+      "name": "Lachsschnabel-Mistelfresser",
+      "location": "Asien",
+      "coordinates": [],
+      "habitat": "Tropische Wälder, Laubwald, städtischer Raum",
+      "lifespan": "",
+      "size": "8cm",
+      "weight": "4 - 8g",
+      "prey": {
+        "primary": [
+          "Insekten",
+          "Spinnen"
+        ],
+        "secondary": []
+      },
+      "trivia": [
+        "Der kleinste Vogel Asiens!"
+      ],
+      "pet": false
+    }
+  ]
+}

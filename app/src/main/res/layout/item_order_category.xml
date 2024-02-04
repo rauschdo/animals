@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="category"
+            type="de.rauschdo.animals.database.Category" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/view_margin_16">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_size_48"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/view_margin_16">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/dragHandle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|start"
+                android:scaleType="fitStart"
+                android:src="@drawable/ic_drag_handle" />
+
+            <TextView
+                android:id="@+id/tvOrderIndex"
+                style="@style/TextStyle.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/view_margin_64"
+                android:text="@{Integer.toString(category.orderIndex)}"
+                tools:text="12" />
+
+            <TextView
+                style="@style/TextStyle.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="@dimen/view_margin_16"
+                android:layout_toEndOf="@id/tvOrderIndex"
+                android:text="@{category.name}"
+                tools:text="@string/placeholder_small" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>

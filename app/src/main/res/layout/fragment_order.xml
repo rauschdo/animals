@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="androidx.core.content.ContextCompat" />
+
+        <variable
+            name="vm"
+            type="de.rauschdo.animals.data.viewmodel.AnimalViewModel" />
+
+        <variable
+            name="adapter"
+            type="de.rauschdo.animals.fragments.settings.order.OrderAdapter" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextStyle.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin_16"
+            android:text="@string/order_fragment_text" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/categoryOrderRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            app:adapter="@{adapter}"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:orderItems="@{vm.categories}"
+            tools:itemCount="5"
+            tools:listitem="@layout/item_order_category" />
+
+        <TextView
+            android:id="@+id/emptyView"
+            style="@style/TextStyle.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/no_categories"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</layout>
