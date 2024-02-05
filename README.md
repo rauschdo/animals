@@ -8,7 +8,8 @@ This Project uses the Android View System. It also provides an [AppWidget](https
 
 ❗Datasets and texts are only in German language
 
-See [Releases](https://github.com/rauschdo/animals/releases) for APK
+See [Releases](https://github.com/rauschdo/animals/releases) for APK.<br/>
+Release APKs will not compile with valid Maps Key.
 
 ![Preview](/assets/collage.jpg "Preview Collage")
 
