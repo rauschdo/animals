@@ -8,6 +8,8 @@ This Project uses the Android View System. It also provides an [AppWidget](https
 
 ❗Datasets and texts are only in German language
 
+See [Releases](https://github.com/rauschdo/animals/releases) for APK
+
 ![Preview](/assets/collage.jpg "Preview Collage")
 
 ## 📋 Requirements
