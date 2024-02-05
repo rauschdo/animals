@@ -46,7 +46,6 @@ If you don't have a key you must at least define the required constant in your <
 - [Google Maps](https://developers.google.com/maps/documentation/android-sdk/)
 - [Material Components](https://github.com/material-components/material-components-android)
 - [Gson](https://github.com/google/gson)
-- [Realm java](https://github.com/realm/realm-java) as example for persistance
 - [Glide](https://bumptech.github.io/glide/) for image loading
 - [Lottie](https://github.com/airbnb/lottie-android) for some animations
 - [ThreeTen ABP](https://github.com/JakeWharton/ThreeTenABP) for time handling
